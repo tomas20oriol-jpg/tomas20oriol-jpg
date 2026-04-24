@@ -34,7 +34,3 @@ Exploratory analysis · Predictive modelling · Feature engineering · Business 
 
 ## 🌐 Let's connect
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?style=flat&logo=linkedin)](https://www.linkedin.com/in/tomás-oriol-freixa-750762285/)
-
----
-
-*Basque cheesecake specialist. Indie music always on. Investment portfolio on the side.*
