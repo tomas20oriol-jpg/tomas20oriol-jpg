@@ -1,6 +1,6 @@
 # Tomás Oriol Freixa
 
-**Industrial Engineer specialised in Data Science** | Python · SQL · ML · Power BI
+**Industrial Management Engineer specialised in Data Science** | Python · SQL · ML · Power BI
 
 - 🌍 San Sebastián, Spain
 - ✉️ tomas20oriol@gmail.com
