@@ -28,6 +28,14 @@ to talk, write to me.
 
 ## Projects
 
+**[Customer segmentation and retention](https://github.com/tomas20oriol-jpg/customer-segmentation-retention)** · *Online Retail II (UCI)*
+Two years of orders from a UK online giftware retailer. I cleaned the data (duplicates,
+cancellations matched to their sales, non-product charges), grouped customers into four
+segments with K-Means, studied retention by cohort and the time to a second order with
+survival analysis, and built a churn model validated over time. A logistic regression stayed
+as the final model because gradient boosting did not beat it under a rule set beforehand.
+Each result comes with its limitations, and the report has recommendations per segment.
+
 **[Predicting electric vehicle purchases](https://github.com/tomas20oriol-jpg/ev-purchase-prediction)** · *Kaggle Playground Series S6E9*
 Binary classification on 668k customers. A logistic regression baseline (ROC-AUC 0.938) set
 the bar; every later candidate was compared with it fold by fold and only accepted if the
@@ -61,7 +69,7 @@ and areas for improvement, written up as an article.
 
 ## What I work with
 
-**Code** — Python (pandas, scikit-learn, statsmodels, matplotlib) · SQL / SQL Server · R
+**Code** — Python (pandas, Polars, scikit-learn, statsmodels, matplotlib) · SQL / SQL Server · R
 
 **Modelling** — LightGBM · XGBoost · CatBoost · Prophet · LSTM · Temporal Fusion Transformer
 
