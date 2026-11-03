@@ -43,6 +43,15 @@ gain was consistent. Final ensemble of LightGBM, XGBoost, CatBoost and HistGradi
 ROC-AUC 0.946 in cross-validation and on the leaderboard. Everything fitted on data lives
 inside an sklearn Pipeline, so there is no leakage, and the repo includes unit tests.
 
+**[Tecnun Study Coach](https://github.com/tomas20oriol-jpg/tecnun-study-coach)** · *Microsoft Foundry agent*
+A study assistant for a data science course, built as an agent in Microsoft Foundry. It answers
+questions from the course documents through Azure AI Search, runs every grade calculation with
+Code Interpreter, looks up Microsoft Learn through MCP and opens GitHub issues when a student
+reports a problem with a lab. Most of the work went into permissions: the project is shared with
+other students, so each connection only gets the access it needs. A small test script asks one
+question per tool after every change, and it caught the model doing arithmetic in its head and
+getting it wrong.
+
 **Short-term traffic demand forecasting** · *final degree project, Aleatica · graded 10/10*
 72-hour forecasts of toll plaza demand to plan staffing. Seven model families — SARIMA,
 SARIMAX, XGBoost, LightGBM, LSTM, Temporal Fusion Transformer and Prophet — plus hybrids and
@@ -73,7 +82,7 @@ and areas for improvement, written up as an article.
 
 **Modelling** — LightGBM · XGBoost · CatBoost · Prophet · LSTM · Temporal Fusion Transformer
 
-**Tools** — Git · Poetry · Microsoft Azure · Power BI · SAP Business One · Excel
+**Tools** — Git · Poetry · Microsoft Azure · Microsoft Foundry · Power BI · SAP Business One · Excel
 
 **Areas** — Statistics & probability · Machine Learning · Time series forecasting · Deep Learning
 
