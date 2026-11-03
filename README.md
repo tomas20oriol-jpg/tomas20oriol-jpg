@@ -44,13 +44,14 @@ ROC-AUC 0.946 in cross-validation and on the leaderboard. Everything fitted on d
 inside an sklearn Pipeline, so there is no leakage, and the repo includes unit tests.
 
 **[Tecnun Study Coach](https://github.com/tomas20oriol-jpg/tecnun-study-coach)** · *Microsoft Foundry agent*
-A study assistant for a data science course, built as an agent in Microsoft Foundry. It answers
-questions from the course documents through Azure AI Search, runs every grade calculation with
-Code Interpreter, looks up Microsoft Learn through MCP and opens GitHub issues when a student
-reports a problem with a lab. Most of the work went into permissions: the project is shared with
-other students, so each connection only gets the access it needs. A small test script asks one
-question per tool after every change, and it caught the model doing arithmetic in its head and
-getting it wrong.
+A chat assistant for a university data science course. The course information is spread over
+several PDFs (syllabus, lab schedule, grading rubric), so finding a deadline or working out the
+grade needed in the remaining labs takes time, and there is no direct way to report a broken
+dataset. The assistant answers from the course documents and cites the source, does the grade
+calculations with code instead of estimating them, and opens a GitHub issue for the teaching staff
+when a student reports a problem. It never hands over full solutions to graded labs. Built as an
+agent in Microsoft Foundry with Azure AI Search over the course PDFs, Code Interpreter and MCP
+connections to Microsoft Learn and GitHub, plus a Python client for terminal and web.
 
 **Short-term traffic demand forecasting** · *final degree project, Aleatica · graded 10/10*
 72-hour forecasts of toll plaza demand to plan staffing. Seven model families — SARIMA,
