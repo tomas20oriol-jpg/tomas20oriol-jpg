@@ -18,8 +18,8 @@ and what the prediction is going to be used for. In the projects I've done so fa
 learned that it pays to start with something simple, validate carefully, and ask a lot of
 questions to the people who know the day-to-day.
 
-I work mostly with Python, machine learning and time series forecasting, and I'm still
-learning.
+I work mostly with Python, machine learning and time series forecasting, and more recently
+with cloud platforms and AI agents. I'm still learning.
 
 I finish the master's in June 2027 and would like to join a data team then. If you'd like
 to talk, write to me.
@@ -83,7 +83,9 @@ and areas for improvement, written up as an article.
 
 **Modelling** — LightGBM · XGBoost · CatBoost · Prophet · LSTM · Temporal Fusion Transformer
 
-**Tools** — Git · Poetry · Microsoft Azure · Microsoft Foundry · Power BI · SAP Business One · Excel
+**Cloud & AI** — Microsoft Azure (AI Search, Entra ID) · Microsoft Foundry · Microsoft Fabric · AWS (EC2, S3, CloudWatch) · AI agents · RAG · MCP
+
+**Tools** — Git · Poetry · Power BI · SAP Business One · Excel
 
 **Areas** — Statistics & probability · Machine Learning · Time series forecasting · Deep Learning
 
