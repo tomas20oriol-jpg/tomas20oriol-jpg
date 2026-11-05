@@ -28,6 +28,18 @@ to talk, write to me.
 
 ## Projects
 
+**[Predicting myopia in medical students](https://github.com/tomas20oriol-jpg/miopia-ml-project)** · *Machine Learning course project, Tecnun*
+Four classification targets (myopia, myopia magna and two multi-class versions) on 132 students,
+where only 18 have myopia magna, so always answering "no" already gets 86% accuracy and finds
+nobody. I set the validation scheme and the rule for accepting a model before comparing any:
+repeated stratified cross-validation, nested for tuned models, and a candidate replaced the simple
+baseline only if it beat it fold by fold. Logistic regression on axial length alone turned out
+to be a strong baseline. XGBoost won on myopia magna (balanced accuracy 0.90, 83% of the cases
+found) and the axial length / corneal radius ratio, taken from the literature, helped on the other
+targets. I also repeated the whole selection inside the folds to measure how optimistic the scores
+are, and reported that the gain disappears on one target. Built with scikit-learn and XGBoost, with
+unit tests.
+
 **[Customer segmentation and retention](https://github.com/tomas20oriol-jpg/customer-segmentation-retention)** · *Online Retail II (UCI)*
 Two years of orders from a UK online giftware retailer. I cleaned the data (duplicates,
 cancellations matched to their sales, non-product charges), grouped customers into four
